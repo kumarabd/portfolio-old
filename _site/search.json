@@ -1,0 +1,67 @@
+[
+  
+    {
+      "title"    : "Digital Minimalism",
+      "category" : "",
+      "tags"     : "Social Media, Minimalism, Technology",
+      "url"      : "/docs/2019/02/20/digital-minimalism.html",
+      "date"     : "2019-02-20 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Clean Coding",
+      "category" : "",
+      "tags"     : "Software Development, Clean Code",
+      "url"      : "/docs/2018/12/10/clean-coding.html",
+      "date"     : "2018-12-10 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "4 Lessons After 11 Years in Silicon Valley",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/docs/2018/05/09/four-lessons-after-eleven-years-in-silicon-valley.html",
+      "date"     : "2018-05-09 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "GitHub Flow",
+      "category" : "",
+      "tags"     : "GitHub, Workflow",
+      "url"      : "/docs/2017/01/01/github-flow.html",
+      "date"     : "2017-01-01 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "A better Hello World",
+      "category" : "",
+      "tags"     : "Software Development",
+      "url"      : "/docs/2016/07/23/a-better-hello-world.html",
+      "date"     : "2016-07-23 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Do not go gentle into that good night",
+      "category" : "",
+      "tags"     : "Poetry",
+      "url"      : "/docs/2016/04/17/do-not-go-gentle-into-that-good-night.html",
+      "date"     : "2016-04-17 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "What is version control?",
+      "category" : "",
+      "tags"     : "Version Control",
+      "url"      : "/docs/2016/02/09/what-is-version-control.html",
+      "date"     : "2016-02-09 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "How to undo your git failure?",
+      "category" : "",
+      "tags"     : "External Post, Git",
+      "url"      : "https://blog.usejournal.com/how-to-undo-your-git-failure-b76e31ecac74",
+      "date"     : "2015-09-25 00:00:00 +0530"
+    } 
+  
+]
