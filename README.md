@@ -1,4 +1,4 @@
-### enginR-jekyll - A Jekyll Portfolio website
+## EnginR - A Jekyll Portfolio website
 
 [![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
