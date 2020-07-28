@@ -1,37 +1,41 @@
 ---
-layout: page
+layout: default
 ---
 
-<h1><b>{{ page.title }}</b></h1>
-
-<p class="post-metadata text-muted">
-  {{ page.date | date_to_long_string }} -  
-  <b>
-  {% assign words = content | number_of_words %}
-  {% if words < 360 %}
-    less than 1 min read time
-  {% else %}
-    {{ words | divided_by: 180 }} mins read time
-  {% endif %}
-  </b>
-
-  <br>
-
-  {% if page.tags != empty %}
-    Tags: 
-    {% for tag in page.tags %}
-    <a class="text-decoration-none no-underline" href="{{ tag | slugify | prepend:'/blog/tags#' | relative_url }}">
-      <span class="tag badge badge-pill text-primary border border-primary">{{ tag }}</span>
-    </a>
-    {% endfor %}
-  {% endif %}
-
-</p>
-
-{{ content }}
-
-{% if page.comments %}
-<div class="pt-5">
-  {% include blog/disqus.html %}
+<div class="row" id="blog-post-container">
+  <div class="col-lg-8 offset-md-2">
+    {%- include blog_post_article.html -%}
+     {%- include blog_post_comments.html-%}
+  </div>
 </div>
-{% endif %}
+<div class="row">
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-header">About {{site.author}}</div>
+      <div class="card-body">
+        <p class="author_bio">{{ site.author_bio }}</p>
+        {%- include github_star_button.html -%}
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-header">Categories</div>
+      <div class="card-body text-dark">
+        {%- include blog_categories.html -%}
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-header">Useful Links</div>
+      <div class="card-body text-dark">
+        {% for i in site.urls %}
+        <li>
+          <a href="{{ site.url}}{{site.baseurl}}{{ i.url }}">{{ i.text }}</a>
+        </li>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

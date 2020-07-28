@@ -1,0 +1,22 @@
+{
+  "name": "enginR-jekyll",
+  "homepage": "https://github.com/kumarabd/kumarabd.github.io",
+  "authors": [
+    "kumarabd <abishekkumar92@gmail.com>"
+  ],
+  "description": "A Jekyll Portfolio website",
+  "main": "",
+  "keywords": [
+    "jekyll-theme",
+    "jekyll",
+    "gallery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,26 +1,38 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+{%- include head.html -%}
+<body>
+        {%- include header.html -%}
+        <div class="col-lg-12">
+            {{ content }}
+        </div>
+        {%- include footer.html -%}
+     <script>
+            var options = {
+                classname: 'my-class',
+                id: 'my-id'
+            };
+            var nanobar = new Nanobar( options );
+            nanobar.go( 30 );
+            nanobar.go( 76 );
+            nanobar.go(100);
+        </script>
 
-<!--
-  portfoliME Jekyll theme by Youssef Raafat
-  Free for personal and commercial use under the MIT license
-  https://github.com/kumarabd/kumarabd.github.io
--->
-
-<html lang="en" class="h-100">
-
-{% include head.html %}
-
-<body class="d-flex flex-column h-100">
-
-  <main class="flex-shrink-0 container mt-5">
-  {% include navbar.html %}
-  {{ content }}
-  </main>
-
-  {% include footer.html %}
-  {% include analytics.html %}
-  {% include scripts.html %}
-
+   <script src="{{site.url}}{{site.baseurl}}/assets/js/mode-switcher.js"></script>
+   <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </body>
-
 </html>
