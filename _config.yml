@@ -11,10 +11,10 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    # - text: Contact Me
-    #   url : /contact
-    - text: Resume
-      url : /resume
+    - text: Contact Me
+      url : /contact
+    # - text: Resume
+    #   url : /resume
 
 # Edit these details
 
