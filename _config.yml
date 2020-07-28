@@ -58,12 +58,12 @@ author_project_details:
 # social links
 twitter_username: kumarabd
 github_username:  kumarabd
-facebook_username: johndoe
+facebook_username: abishekkumar92
 linkedin_username: kumarabd
 behance_username: johndoe
-instagram_username: johndoe
+instagram_username: abishek_it_is
 medium_username: johndoe
-telegram_username: johndoe
+telegram_username: hu1kbu5t3r
 dribbble_username: johndoe
 flickr_username: johndoe
 
@@ -74,9 +74,6 @@ hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
 wakatime_username: 
-
-# mailchimp embedded form url (newsletter):
-mailchimp_form_url: 
 
 # formspree (contact form)
 formspree_email: johndoe@gmail.com
