@@ -1,7 +1,7 @@
-title: enginR
-subtitle: Every engineer has his own story
+title: enginR | Blog and personal portfolio by Abishek Kumar
+title_name: enginR
 description: >- # this means to ignore newlines until "baseurl:"
-  enginR is my static web portal for blogging and portfolio
+  enginR is a web portal for blogging and portfolio built with jekyll. The blog posts present here are self written and published.
 
 url: "https://realnighthawk.me" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -25,7 +25,7 @@ author_bio: Hi, my name is Abishek Kumar. I built this site using jekyll :D
 author_email: "abishekkumar92@gmail.com"
 author_location: India
 author_website_url: "http://realnighthawk.me"
-typewrite-text: Feel free to explore my work.
+typewrite-text: Feel free to explore my personal blog and portfolio.
 
 author_work_experiences:
             - company_name: Bookmyshow
