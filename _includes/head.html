@@ -10,6 +10,8 @@
     name="keywords"
     content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}"
   />
+  <meta name='owner' content="{{ site.author }}">
+  <meta name='reply-to' content="{{ site.author_email }}">
   <meta content="{{ site.share.fb_appid }}" property="fb:app_id" />
   <meta content="{{ site.title }}" property="og:site_name" />
   {% if page.noindex %}
@@ -28,9 +30,10 @@
     property="article:published_time"
   />
   <meta content="{{ site.url }}{{site.baseurl}}/about/" property="article:author" />
-  {% endif %} {% if page.thumbnail %}
+  {% endif %}
   <meta content="{{ site.url }}{{site.baseurl}}{{ page.thumbnail }}" property="og:image" />
-  {% endif %} {% if page.categories %} {% for category in page.categories
+  <meta content="{{ site.url }}{{site.baseurl}}{{ page.thumbnail }}" property="og:image:secure_url" />
+  {% if page.categories %} {% for category in page.categories
   limit:1 %}
   <meta content="{{ category }}" property="article:section" />
   {% endfor %} {% endif %} {% if page.tags %} {% for tag in page.tags %}
@@ -89,12 +92,10 @@
     rel="stylesheet"
   />
   <!-- Favicon -->
-  <link
-    rel="icon"
-    href="{{site.url}}{{site.baseurl}}/assets/img/favicon.ico"
-    type="image/gif"
-    sizes="16x16"
-  />
+  <link rel="icon" href="{{site.url}}{{site.baseurl}}/assets/img/favicon.ico" type="image/gif" sizes="16x16" />
+  <link rel="icon" href="{{site.url}}{{site.baseurl}}/assets/img/favicon.ico" type="image/gif" sizes="32x32" />
+  <link rel="shortcut icon" href="{{site.url}}{{site.baseurl}}/assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="{{site.url}}{{site.baseurl}}/assets/img/favicon.ico" sizes="180x180" />
 
   <!-- Jquery -->
   <script
