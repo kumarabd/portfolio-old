@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "enginR"
-  spec.version       = "0.4.5"
+  spec.version       = "1.0.0"
   spec.authors       = ["Abishek Kumar"]
   spec.email         = ["abishekkumar92@gmail.com"]
 

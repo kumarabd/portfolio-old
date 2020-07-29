@@ -6,7 +6,7 @@ gem 'kramdown'
 gem 'rack-jekyll'
 gem 'rake'
 gem 'puma'
-gem "rack", ">= 2.1.4"
+gem 'rack'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -15,13 +15,13 @@ gem "rack", ">= 2.1.4"
 # Plugins
 group :jekyll_plugins do
     gem 'jgd', '~> 1.12'
-    gem 'jekyll-feed', '~> 0.13.0'
-    gem 'jekyll-paginate', '~> 1.1.0'
-    gem 'jekyll-gist', '~> 1.5.0'
-    gem 'jekyll-seo-tag', '~> 2.6.1'
-    gem 'jekyll-sitemap', '~> 1.4.0'
-    gem 'jekyll-menus', '~> 0.6.1'
-    gem 'jekyll-admin', '~> 0.9.0'
+    gem 'jekyll-feed'
+    gem 'jekyll-paginate'
+    gem 'jekyll-gist'
+    gem 'jekyll-seo-tag'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-menus'
+    gem 'jekyll-admin'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

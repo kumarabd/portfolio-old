@@ -1,9 +1,9 @@
 title: enginR
-subtitle: A Web portal for personal portfolio
+subtitle: Every engineer has his own story
 description: >- # this means to ignore newlines until "baseurl:"
-  enginR is my personal web portal for information about me
+  enginR is my static web portal for blogging and portfolio
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://realnighthawk.me" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
@@ -56,7 +56,7 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: kumarabd
+twitter_username: abd_abishek
 github_username:  kumarabd
 facebook_username: abishekkumar92
 linkedin_username: kumarabd
@@ -114,6 +114,21 @@ paginate_path: "/blog/page/:num/"
 #       path: "gallery"
 #     values:
 #       permalink: /:path/:basename:output_ext
+
+
+# SEO parameters
+tagline: Every engineer has his own story
+twitter:
+  username: abd_abishek
+  card: summary
+logo: /assets/img/profile.png
+social:
+  name: Abishek Kumar
+  links:
+    - https://twitter.com/abd_abishek
+    - https://www.facebook.com/abishekkumar92
+    - https://www.linkedin.com/in/kumarabd
+    - https://github.com/kumarabd
 
 # Build settings
 plugins:

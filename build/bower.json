@@ -1,10 +1,10 @@
 {
-  "name": "enginR-jekyll",
+  "name": "enginR",
   "homepage": "https://github.com/kumarabd/kumarabd.github.io",
   "authors": [
     "kumarabd <abishekkumar92@gmail.com>"
   ],
-  "description": "A Jekyll Portfolio website",
+  "description": "Every engineer has his own story",
   "main": "",
   "keywords": [
     "jekyll-theme",
