@@ -4,7 +4,7 @@ permalink: /blog/categories/
 ---
 
 
-<h3>  {{ page.title }} </h3>
+<h1>  {{ page.title }} </h1>
 
 <div id="categories">
 {% for category in site.categories %}

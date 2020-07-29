@@ -4,7 +4,7 @@ title: Jekyll
 permalink: /blog/categories/jekyll/
 ---
 
-<h5> Posts by Category : {{ page.title }} </h5>
+<h1> Posts by Category : {{ page.title }} </h1>
 
 <div class="card">
 {% for post in site.categories.jekyll %}
