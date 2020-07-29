@@ -60,17 +60,15 @@ twitter_username: kumarabd
 github_username:  kumarabd
 facebook_username: abishekkumar92
 linkedin_username: kumarabd
-behance_username: johndoe
 instagram_username: abishek_it_is
-medium_username: johndoe
+medium_username: abishekkumar92
 telegram_username: hu1kbu5t3r
-dribbble_username: johndoe
-flickr_username: johndoe
+flickr_username: abishekkumar92
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
 # disqus_shortname: sujay-kundu
-hyvor_talk_website_id: 476
+# hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
 wakatime_username: 
