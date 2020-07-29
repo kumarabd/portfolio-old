@@ -6,7 +6,7 @@ layout: default
   <div class="col-lg-4 offset-md-1">
     <div class="card" id="profile-card">
       <a href="/">
-        <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" />
+        <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" alt="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" />
       </a>
       <h1 class="profile-name">{{ site.author }}</h1>
       <p class="profile-bio">{{ site.author_desc }}</p>
@@ -150,7 +150,7 @@ layout: default
         <div class="col-md-2">
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
-            class="company-logo"
+            class="company-logo" alt="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
           />
         </div>
         <div class="col-md-6">
@@ -172,7 +172,7 @@ layout: default
         <div class="col-md-2">
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
-            class="company-logo"
+            class="company-logo" alt="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
           />
         </div>
         <div class="col-md-6">
