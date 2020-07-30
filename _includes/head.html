@@ -31,8 +31,8 @@
   />
   <meta content="{{ site.url }}{{site.baseurl}}/about/" property="article:author" />
   {% endif %}
-  <meta content="{{ site.url }}{{site.baseurl}}{{ page.thumbnail }}" property="og:image" />
-  <meta content="{{ site.url }}{{site.baseurl}}{{ page.thumbnail }}" property="og:image:secure_url" />
+  <meta content="{{ site.url }}{{site.baseurl}}{{ site.author_logo }}" property="og:image" />
+  <meta content="{{ site.url }}{{site.baseurl}}{{ site.author_logo }}" property="og:image:secure_url" />
   {% if page.categories %} {% for category in page.categories
   limit:1 %}
   <meta content="{{ category }}" property="article:section" />
