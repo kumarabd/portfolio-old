@@ -13,8 +13,8 @@ urls:
       url: /blog
     - text: Contact Me
       url : /contact
-    # - text: Resume
-    #   url : /resume
+    - text: Resume
+      url : /resume
 
 # Edit these details
 
