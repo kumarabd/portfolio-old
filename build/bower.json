@@ -1,0 +1,22 @@
+{
+  "name": "enginR",
+  "homepage": "https://github.com/kumarabd/kumarabd.github.io",
+  "authors": [
+    "kumarabd <abishekkumar92@gmail.com>"
+  ],
+  "description": "Every engineer has his own story",
+  "main": "",
+  "keywords": [
+    "jekyll-theme",
+    "jekyll",
+    "gallery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

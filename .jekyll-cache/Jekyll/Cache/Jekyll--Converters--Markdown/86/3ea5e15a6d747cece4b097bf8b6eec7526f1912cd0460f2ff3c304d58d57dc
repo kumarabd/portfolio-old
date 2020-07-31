@@ -1,0 +1,34 @@
+I"À<h1>  All Categories </h1>
+
+<div id="categories">
+
+  <div class="category-box">
+    
+    <div id="#jekyll"></div>
+    <h4 class="category-head"><a href="/blog/categories/jekyll">jekyll</a></h4>
+    <a name="jekyll"></a>
+     
+    <article class="center">
+      <h6><a href="/jekyll/2020/07/28/seo-to-jekyll/">Adding SEO to you jekyll/gh-pages</a></h6>
+    </article>
+
+
+    
+    <article class="center">
+      <h6><a href="/jekyll/2020/07/28/my-first-portfolio/">Welcome to jekyll pages !</a></h6>
+    </article>
+
+
+    
+    <article class="center">
+      <h6><a href="/jekyll/2020/05/23/netlify-cms-created-this-article/">Netlify CMS created this Article</a></h6>
+    </article>
+
+
+    
+
+  </div>
+
+</div>
+
+:ET
